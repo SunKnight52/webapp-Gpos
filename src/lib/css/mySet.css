@@ -1,0 +1,64 @@
+.usertap .user_header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+.usertap .user_header > img:first-of-type {
+  width: 100%;
+}
+.usertap .user_header > a > img {
+  width: 0.18rem;
+  position: absolute;
+  top: 0.38rem;
+  right: 0.15rem;
+  margin-bottom: 0.12rem;
+}
+.usertap .user_header > div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  width: 0.83rem;
+  margin-left: -0.415rem;
+  margin-top: -0.55rem;
+  font-size: 14px;
+  color: #fff;
+}
+.usertap .user_header > div img {
+  width: 0.83rem;
+}
+.usertap .user_main .mui-table-view .mui-table-view-cell {
+  font-size: 14px;
+  color: #333;
+}
+.usertap .user_main .mui-table-view .mui-table-view-cell .mui-navigate-right {
+  padding-left: 0.15rem;
+}
+.usertap .user_main .mui-table-view .mui-table-view-cell .mui-navigate-right img {
+  float: left;
+  width: 0.175rem;
+  margin-right: 0.1rem;
+}
+.usertap .user_main .mui-table-view .mui-table-view-cell:after {
+  left: 0;
+  background-color: #f3f3f3;
+  height: 2px;
+}
+.usertap .user_main .mui-table-view .mui-table-view-cell:last-of-type:after {
+  display: none;
+}
+.usertap .user_main .mui-table-view:after {
+  display: none;
+}
+.usertap .user_main .mui-table-view:before {
+  display: none;
+}
+.usertap .user_main .mui-table-view:first-of-type {
+  padding-top: 0.38rem;
+  background-color: #fff;
+}
+.usertap .user_main .mui-table-view:nth-of-type(2) {
+  margin-top: 0.1rem;
+}

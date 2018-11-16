@@ -1,0 +1,99 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+}
+body div .headerImg {
+  position: relative;
+  text-align: center;
+  color: #333;
+}
+body div .headerImg img:first-of-type {
+  width: 100%;
+  height: 3.16rem;
+}
+body div .headerImg img:nth-of-type(2) {
+  width: 0.76rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -0.385rem;
+  margin-left: -0.38rem;
+}
+body div .loginMain form {
+  border: 0;
+  width: 100%;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+body div .loginMain form .mui-input-row:after {
+  left: 0;
+}
+body div .loginMain form .mui-input-row {
+  border: 0;
+  margin-top: 0.22rem;
+}
+body div .loginMain form .mui-input-row label {
+  width: 15%;
+  padding: 0.1rem 0.25rem 0.1rem 0;
+}
+body div .loginMain form .mui-input-row input {
+  width: 85%;
+  color: #333;
+  font-size: 14px;
+}
+body div .loginMain form .mui-input-row .input_clear {
+  position: absolute;
+  width: 0.11rem;
+  height: 0.11rem;
+  top: 0.1rem;
+  right: 0.0rem;
+  display: none;
+}
+body div .loginMain form .mui-input-row .input_clear img {
+  width: 0.11rem;
+  height: 0.11rem;
+}
+body div .loginMain form .mui-input-row input::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 12px;
+}
+body div .loginMain form .mui-input-row:first-of-type {
+  margin-top: 0;
+}
+body div .loginMain .mui-input-group:after {
+  height: 0;
+}
+body div .loginMain .mui-input-group::before {
+  display: none;
+}
+body div .loginMain .loginon {
+  width: 100%;
+  padding-top: 0.2rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  text-align: center;
+}
+body div .loginMain .loginon .loginin {
+  line-height: 0.86rem;
+  height: 0.86rem;
+  background: url("../img/icon_anniu_c.png") no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+body div .footerin {
+  color: #333;
+  position: absolute;
+  bottom: 0.45rem;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+}
+body div .footerin a {
+  color: #5871ff;
+}

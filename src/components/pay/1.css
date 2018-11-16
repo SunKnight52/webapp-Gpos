@@ -1,0 +1,32 @@
+.miner {
+  width: 100%;
+  position: relative;
+}
+.miner > img {
+  width: 100%;
+}
+.miner .main {
+  width: 100%;
+  position: absolute;
+  top: 1.92rem;
+  text-align: center;
+  padding: 0 0.15rem;
+}
+.miner .main .miner_main > p {
+  color: #fff;
+  margin-bottom: 0.24rem;
+}
+.miner .main .miner_main > p > ul li {
+  height: 1.3rem;
+  margin-bottom: 0.1rem;
+}
+.miner .main .miner_main > p > ul li > img:first-of-type {
+  width: 0.585rem;
+}
+.miner .main .miner_main > p > ul li > img:nth-of-type(2) {
+  width: 0.6rem;
+}
+.miner .main .miner_main > p > ul li .mid {
+  display: inline-block;
+  color: #fff;
+}

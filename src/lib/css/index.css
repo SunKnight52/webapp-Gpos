@@ -1,0 +1,204 @@
+.index {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding-bottom: 0.5rem;
+}
+.index .index_head {
+  width: 100%;
+  height: 3.2rem;
+  position: relative;
+  text-align: center;
+}
+.index .index_head .head_top {
+  background: url('../img/banner_sy.png') no-repeat;
+  background-size: 100% 100%;
+  height: 2.45rem;
+  color: #fff;
+  padding-top: 0.85rem;
+}
+.index .index_head .head_top > a {
+  position: absolute;
+  top: 0.37rem;
+  right: 0.15rem;
+}
+.index .index_head .head_top .balance {
+  font-size: 16px;
+}
+.index .index_head .head_top .balance a {
+  margin-left: 0.06rem;
+  color: #fff;
+}
+.index .index_head .head_top .balance a .mui-icon {
+  font-size: 16px;
+}
+.index .index_head .head_top .gpos_nub {
+  margin-top: 0.16rem;
+  font-size: 14px;
+}
+.index .index_head .head_top .gpos_nub span {
+  margin-right: 0.1rem;
+  font-size: 35px;
+}
+.index .index_head .head_top .ranking {
+  margin-top: 0.24rem;
+}
+.index .index_head .head_top .ranking div:first-of-type {
+  float: left;
+  width: 49%;
+  padding-left: 0.3rem;
+  border-right: 1px solid #fff;
+  font-size: 14px;
+}
+.index .index_head .head_top .ranking div:first-of-type span {
+  font-size: 20px;
+}
+.index .index_head .head_top .ranking div:nth-of-type(2) {
+  float: right;
+  width: 49%;
+  padding-right: 0.3rem;
+  font-size: 14px;
+}
+.index .index_head .head_top .ranking div:nth-of-type(2) span {
+  font-size: 20px;
+}
+.index .index_head .fot {
+  width: 100%;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+  box-sizing: border-box;
+}
+.index .index_head .fot .head_foot {
+  position: absolute;
+  bottom: 0.1rem;
+  height: 1.04rem;
+  width: 90.5%;
+  background-color: #fff;
+  border-radius: 7px;
+  padding-top: 0.18rem;
+  box-sizing: border-box;
+}
+.index .index_head .fot .head_foot ul {
+  width: 100%;
+  display: flex;
+  padding-right: 0.24rem;
+  box-sizing: border-box;
+}
+.index .index_head .fot .head_foot ul li {
+  flex: 1;
+  height: 0.63rem;
+}
+.index .index_head .fot .head_foot ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #666;
+  font-size: 12px;
+  line-height: 0.15rem;
+}
+.index .index_head .fot .head_foot ul li a img {
+  width: 0.45rem;
+}
+.index .index_head .fot .head_foot ul li:first-of-type {
+  margin-left: 0.24rem;
+}
+.index .index_profit {
+  width: 100%;
+}
+.index .index_profit > div {
+  width: 48.5%;
+  background-color: #fff;
+  height: 1.1rem;
+  padding-left: 0.2rem;
+  padding-top: 0.28rem;
+}
+.index .index_profit > div div:first-of-type {
+  color: #5871ff;
+  font-size: 14px;
+  margin-bottom: 0.2rem;
+}
+.index .index_profit > div div:first-of-type img {
+  width: 0.16rem;
+  vertical-align: middle;
+  margin-right: 0.05rem;
+}
+.index .index_profit > div div:nth-of-type(2) {
+  color: #666;
+  font-size: 14px;
+}
+.index .index_profit > div div:nth-of-type(2) span {
+  font-size: 25px;
+  margin-right: 0.07rem;
+}
+.index .index_profit > img {
+  width: 100%;
+  margin-top: 0.1rem;
+}
+.index .index_foot {
+  width: 100%;
+  padding: 0 0.15rem 0.15rem 0.15rem;
+}
+.index .index_foot > div {
+  width: 100%;
+  margin-top: 0.1rem;
+}
+.index .index_foot .index_nub {
+  height: 1.21rem;
+  background-color: #fff;
+  padding-top: 0.2rem;
+}
+.index .index_foot .index_nub .left:first-of-type {
+  position: absolute;
+  width: 1.04rem;
+  text-align: center;
+  color: #333232;
+  font-size: 14px;
+}
+.index .index_foot .index_nub .left:nth-of-type(2) {
+  width: 100%;
+  padding-left: 1rem;
+}
+.index .index_foot .index_nub .left:nth-of-type(2) ul {
+  width: 100%;
+  display: flex;
+}
+.index .index_foot .index_nub .left:nth-of-type(2) ul li {
+  text-align: center;
+  flex: 1;
+  margin-top: 0.19rem;
+}
+.index .index_foot .index_nub .left:nth-of-type(2) ul li .top {
+  font-size: 14px;
+  color: #333232;
+}
+.index .index_foot .index_nub .left:nth-of-type(2) ul li .but {
+  margin-top: 0.1rem;
+  font-size: 14px;
+  color: #999;
+}
+.index .index_foot .index_nub .left:nth-of-type(2) .ul_top li:nth-of-type(3) .but {
+  color: #333;
+}
+.index .index_foot .index_nub .left:first-of-type::after {
+  position: absolute;
+  content: "";
+  background-color: #ccc;
+  width: 1px;
+  height: 0.73rem;
+  right: 0;
+  top: 0.03rem;
+}
+.index .index_foot .index_GPOS {
+  height: 1.21rem;
+  background-color: #fff;
+}
+.index .index_foot .index_GPOS .left {
+  padding-top: 0.43rem;
+  padding-left: 0.2rem;
+  font-size: 14px;
+}
+.index .index_foot .index_GPOS .left p {
+  color: #333;
+}
+.index .index_foot .index_GPOS .left span {
+  color: #989898;
+}

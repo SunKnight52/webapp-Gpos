@@ -1,0 +1,43 @@
+#pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell:after {
+    display: none;
+} 
+#pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell {
+    padding: 0;
+}
+#pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell .top {
+    padding: 0 0.15rem;
+}
+ #pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell .gpos_main ul li{
+    height: 0.74rem;
+    margin: 0 0.15rem;
+    border-bottom: 1px #ccc solid;
+ }
+ #pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell .gpos_main ul li:last-of-type{
+    
+    border-bottom: 0
+ }
+
+  #pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell .gpos_main ul li img {
+      margin-right: 0.1rem;
+  }
+   #pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell .gpos_main ul li span {
+       font-size: 14px;
+       color: #333;
+       font-weight: 600;
+   }
+    #pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell .gpos_main ul li p {
+       font-size: 14px;
+       color: #999;
+       font-weight: 600;
+   }
+    #pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell .gpos_main ul li .left {
+        margin-top: 0.13rem;
+    }
+    #pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell .gpos_main ul li .right {
+        line-height: 0.74rem;
+        color: #5871ff;
+        font-size: 16px;
+    }
+ #pullrefresh .mui-scroll .mui-table-view .mui-table-view-cell .gpos_main  {
+     background-color: #fff;
+ }

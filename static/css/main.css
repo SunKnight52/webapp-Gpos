@@ -1,0 +1,30 @@
+html {
+font-size: 10/16*100%
+}
+/*rem为16px  */
+@media only screen and (min-width: 481px) {
+html {
+font-size:94%!important
+}
+/* rem约为15px */
+
+}
+
+@media only screen and (min-width: 561px) {
+html {
+font-size:109%!important
+}
+/* rem为17.4 */
+
+}
+
+@media only screen and (min-width: 641px) {
+html {
+ font-size:125%!important   
+}  
+         /* rem为20px */  
+}
+ * {
+      padding: 0;
+      margin: 0;
+    }

@@ -1,0 +1,40 @@
+body div .upload_mai ul li {
+    float: left;
+    position: relative;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-left: 0.12rem;
+    margin-bottom: 0.12rem;
+}
+
+body div .upload_mai ul li img {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+body div .upload_mai ul li .clos {
+    width: 0.175rem;
+    height: 0.175rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+}
+
+body div .upload_mai ul li:last-of-type {
+    width: 1.1rem;
+    height: 1.1rem;
+    text-align: center;
+    margin-left: 0.12rem;
+    margin-bottom: 0.12rem;
+    border: 2px #5871ff dashed;
+    line-height: 1.1rem;
+
+    text-align: center;
+    border-radius: 10px;
+}
+
+body div .upload_mai ul li:last-of-type img {
+    width: 0.38rem;
+    height: 0.325rem;
+    vertical-align: middle;
+}

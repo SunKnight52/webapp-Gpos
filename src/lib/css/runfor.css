@@ -1,0 +1,157 @@
+.runfor_body {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding-bottom: 0.7rem;
+}
+.runfor_body .runfor_header {
+  position: relative;
+}
+.runfor_body .runfor_header img {
+  width: 100%;
+}
+.runfor_body .runfor_header span {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.15rem;
+  color: #fff;
+  font-size: 14px;
+}
+.runfor_body .runfor_main {
+  padding: 0.14rem 0.14rem 0 0.14rem;
+}
+.runfor_body .runfor_main .main {
+  background-color: #fff;
+  height: 2.2rem;
+  border-radius: 0.05rem;
+}
+.runfor_body .runfor_main .main .top {
+  padding-top: 0.28rem;
+  margin-bottom: 0.1rem;
+}
+.runfor_body .runfor_main .main .top > div {
+  text-align: center;
+  width: 50%;
+}
+.runfor_body .runfor_main .main .top > div img {
+  width: 0.16rem;
+  vertical-align: middle;
+  margin-right: 0.05rem;
+}
+.runfor_body .runfor_main .main .top > div p {
+  color: #5871ff;
+  font-size: 26px;
+  font-weight: 700;
+}
+.runfor_body .runfor_main .main .top > div p span {
+  font-size: 10px;
+  font-weight: normal;
+  color: #5871ff;
+}
+.runfor_body .runfor_main .main .top > div span {
+  font-size: 12px;
+  color: #010101;
+}
+.runfor_body .runfor_main .main .top .left p:after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 0.30rem;
+  background-color: #ccc;
+  right: 50%;
+}
+.runfor_body .runfor_main .main .top:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.runfor_body .runfor_main .main .foot {
+  text-align: center;
+}
+.runfor_body .runfor_main .main .foot div {
+  display: inline-block;
+  width: 2.2rem;
+  height: 0.7rem;
+  background: url("../img/icon_anniu_jx.png") no-repeat;
+  background-size: 2.18rem;
+  line-height: 0.7rem;
+  color: #fff;
+}
+.runfor_body .runfor_main .main .foot p {
+  font-size: 12px;
+  color: #ccc;
+}
+.runfor_body .runfor_foot {
+  text-align: center;
+  padding: 0 0.15rem;
+}
+.runfor_body .runfor_foot > div {
+  padding-top: 0.22rem;
+  padding-bottom: 0.18rem;
+}
+.runfor_body .runfor_foot > div p {
+  position: relative;
+  color: #000;
+  font-size: 16px;
+}
+.runfor_body .runfor_foot > div > p:before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 0.5rem;
+  background-color: #333;
+  position: absolute;
+  top: 0.1rem;
+  left: 0.6rem;
+}
+.runfor_body .runfor_foot > div > p:after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 0.5rem;
+  background-color: #333;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.6rem;
+}
+.runfor_body .runfor_foot > div span {
+  font-size: 12px;
+  color: #949494;
+}
+.runfor_body .runfor_foot > table {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px #000 ;
+}
+.runfor_body .runfor_foot > table thead th {
+  background-color: #5871ff;
+  font-size: 13px;
+  color: #fff;
+  height: 0.32rem;
+  width: 33.34%;
+}
+.runfor_body .runfor_foot > table thead th:first-of-type {
+  border-radius: 10px 0 0 0;
+}
+.runfor_body .runfor_foot > table thead th:last-of-type {
+  border-radius: 0 10px 0 0;
+}
+.runfor_body .runfor_foot > table tbody {
+  font-size: 12px;
+  color: #000;
+}
+.runfor_body .runfor_foot > table tbody tr td:nth-of-type(2) {
+  height: 0.32rem;
+  line-height: 0.32rem;
+  width: 22%;
+  text-align: left;
+}
+.runfor_body .runfor_foot > table tbody tr td:nth-of-type(2) img {
+  width: 0.25rem;
+  vertical-align: middle;
+  margin-left: 0.05rem;
+}
+.runfor_body .runfor_foot > table tbody tr td:nth-of-type(3) {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+}

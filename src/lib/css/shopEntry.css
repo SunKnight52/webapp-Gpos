@@ -1,0 +1,12 @@
+.shop_entry {
+    height: 100%;
+    background-color: #f3f3f3;
+}
+.shop_photo img{
+    float: left;
+    width: 0.35rem;
+    height: 0.35rem;
+    vertical-align: middle;
+    margin-right: 0.08rem;
+    margin-top: 0.08rem;
+}
