@@ -1,6 +1,6 @@
 # gpos
 
-> A Vue.js project
+> vue + mui + h5移动app,后期未上线,转练习用
 
 ## Build Setup
 
